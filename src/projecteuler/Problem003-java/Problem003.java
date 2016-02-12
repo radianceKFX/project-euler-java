@@ -9,15 +9,14 @@ public class ProjectEuler003 {
         long x,y;
         x = 600851475143L;
         boolean isPrime = true;
-        //start with the biggest numbers first
-        //to prevent unnecessary calculations.
-        //the biggest possible value is twice the size of the total
+        //start with the biggest numbers first to prevent unnecessary calculations.
+        //the biggest possible value cannot be greater than twice the size of the total
         //so start calculating there first
         int j = 2;
         for(long i = x/j; 0 < i; j++,i=x/j){
             if(x%i==0){
                 y = i;
-            
+
             if(isPrime(y)==true){
                 int k = j - 1;
                 System.out.println("answer = " + y + " | at iteration " + k);
@@ -25,9 +24,9 @@ public class ProjectEuler003 {
             }
         }
     }
-    
+
     public static boolean isPrime(long l){
-        // Insert algoritm here
+        // On a math website it was explained that the prime factors of a number could not exceed the squared-root of that number.
         boolean prime = true;
         for(long i = 2; i < Math.sqrt(l);i++){
             if(l%i==0){
