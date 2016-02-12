@@ -5,7 +5,7 @@ package projecteuler;
 
 /**
  *
- * @author Rudolf Sneep
+ * @author RadianceKFX
  */
 public class ProjectEuler {
 
