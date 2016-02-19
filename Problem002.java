@@ -5,7 +5,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
  */
 package projecteuler;
 
-public class problem002 {
+public class Problem002 {
  
     public static void main (String[] args){
         
@@ -45,9 +45,9 @@ public class problem002 {
         fib = 0;    //reset fib to start the while loop
         while(fib < limit){ 
             fib = getFibonnaciFormula(n);
-            if(fib%2==0){      //check if term is even
-              sumFormula += fib;
-            }//only add term if even  
+            if(fib%2==0){        //check if term is even
+              sumFormula += fib; //only add term if even
+            }  
             n++;
             
         }

@@ -14,7 +14,7 @@ Find the product abc.
 package projecteuler;
 
 
-public class problem009 {
+public class Problem009 {
     public static void main(String[] args){
         
         // There are 3 equations and 3 variables

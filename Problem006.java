@@ -15,7 +15,7 @@ Find the difference between the sum of the squares of the first one hundred natu
  */
 package projecteuler;
 
-public class problem006 {
+public class Problem006 {
     public static void main(String[] args){
         
         int a = squareOfSums(100);

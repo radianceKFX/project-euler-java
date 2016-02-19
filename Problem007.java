@@ -8,17 +8,16 @@ What is the 10 001st prime number?
  */
 package projecteuler;
 
-public class problem007 {
+public class Problem007 {
     public static void main(String[] args){
         
-        Mathematics calc = new Mathematics();
         int count = 0;
         int target = 10_001;
         int answer = 0;     // This project still has erors. Doesn't calculate primes correctly
         
         while(count != target){
             answer++;
-            if( calc.isPrime(answer) ){
+            if( Maths.isPrime(answer) ){
                 count++;       
                 //testing algoritm
                 if( answer < 150 ){

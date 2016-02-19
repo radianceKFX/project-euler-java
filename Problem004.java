@@ -6,7 +6,7 @@ Find the largest palindrome made from the product of two 3-digit numbers.
  */
 package projecteuler;
 
-public class problem004 {
+public class Problem004 {
 
     public static void main(String[] args){
         //numbers to multiply

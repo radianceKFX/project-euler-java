@@ -4,9 +4,8 @@ What is the largest prime factor of the number 600851475143 ?
  */
 package projecteuler;
 
-public class problem003 {
+public class Problem003 {
     public static void main(String[] args){
-        Mathematics calc = new Mathematics();
         long x,y;
         x = 600851475143L;
         boolean isPrime = true;
@@ -18,7 +17,7 @@ public class problem003 {
             if(x%i==0){
                 y = i;
 
-            if(calc.isPrime(y)==true){
+            if(Maths.isPrime(y)==true){
                 int k = j - 1;
                 System.out.println("answer = " + y + " | at iteration " + k);
                 break;} //stop immediately when the number found!

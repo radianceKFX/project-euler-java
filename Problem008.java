@@ -30,7 +30,7 @@ Find the thirteen adjacent digits in the 1000-digit number that have the greates
  */
 package projecteuler;
 
-public class problem008 {
+public class Problem008 {
     public static void main(String[] args){
         
         String s = "73167176531330624919225119674426574742355349194934"+

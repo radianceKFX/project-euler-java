@@ -9,7 +9,7 @@ What is the smallest positive number that is evenly divisible by all of the numb
  */
 package projecteuler;
 
-public class problem005 {
+public class Problem005 {
     
     public static void main(String[] args){
         
