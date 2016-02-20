@@ -13,18 +13,13 @@ public class Problem007 {
         
         int count = 0;
         int target = 10_001;
-        int answer = 0;     // This project still has erors. Doesn't calculate primes correctly
+        int answer = 0;
         
         while(count != target){
             answer++;
             if( Maths.isPrime(answer) ){
-                count++;       
-                //testing algoritm
-                if( answer < 150 ){
-                    System.out.printf("found prime %d, %f %n", answer, Math.sqrt(answer));
-                }
-            }
-            
+                count++;
+            }            
         }
         System.out.printf("The 10.001st prime number is %d %n", answer);
     }    

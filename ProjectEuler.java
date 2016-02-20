@@ -22,8 +22,9 @@ public class ProjectEuler {
 
 ///////  Extra Classes Used
 /*
-
-StopWatch used for problems: 2
-Mathematics.isPrime user for: 3, 7, 10
-
+Class                       used for problems
+---------------------------------------------
+StopWatch                    2
+Maths.isPrime                3, 7, 10
+Maths.countPositiveDivisors  12
 */
