@@ -41,8 +41,7 @@ public class Problem015 {
         
         //If the size of the rectangle is below this limit
         //Print out all the paths for the individual nodes/coordinates
-        int printLimitAllNodes = 5;
-        int printLimitLastNode = 8;
+        int printLimitAllNodes = 5;        
         
 /******************** 2. Model of the Problem ********************/
 
@@ -113,10 +112,6 @@ public class Problem015 {
         }
 
 /******************** 5. Print the Solution ********************/
-        if(horizontalSide<printLimitLastNode || verticalSide<printLimitLastNode){
-            System.out.println("**************All Possible Paths***************");
-            System.out.println(answers.lastEntry());
-        }
         System.out.println("**************Number of Possible Paths***************");
         System.out.println(answers.get(coordinateString(horizontalSide,verticalSide)));       
     }
